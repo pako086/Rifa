@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/txt_nombre_rifa"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blanco" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="@color/negro"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingBottom="@dimen/Height_editText"
+        android:textColor="@color/azul_claro" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:text="@string/txt_correo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blanco" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_below="@+id/textView2"
+        android:background="@color/negro"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="@dimen/Height_editText"
+        android:textColor="@color/azul_claro" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText2"
+        android:text="@string/txt_telefono"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blanco" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_below="@+id/textView3"
+        android:background="@color/negro"
+        android:ems="10"
+        android:inputType="phone"
+        android:paddingBottom="@dimen/Height_editText"
+        android:textColor="@color/azul_claro" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:background="@color/negro"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingBottom="@dimen/Height_editText"
+        android:textColor="@color/azul_claro" />
+    
+    <ImageButton
+        android:id="@+id/btnCancelar_ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/negro"
+        android:contentDescription="@string/src_cancelar"
+        android:onClick="cancelar1"
+        android:paddingLeft="@dimen/weight_barBottom2"
+        android:paddingRight="@dimen/weight_barBottom2"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+    
+    <ImageButton
+            android:id="@+id/btnAdd_Ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/src_add_ticket"
+            android:src="@android:drawable/ic_menu_add" 
+            android:paddingRight="@dimen/weight_barBottom2"
+            android:paddingLeft="@dimen/weight_barBottom2"
+            android:background="@color/negro"
+            />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText3"
+        android:text="@string/txt_direccion"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blanco" />
+
+</RelativeLayout>

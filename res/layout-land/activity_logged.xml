@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnDelete_rifa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:cacheColorHint="@color/gris_azulado"
+        tools:listitem="@android:layout/simple_list_item_1" >
+
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/btnDelete_rifa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/negro"
+        android:contentDescription="@string/src_eliminar_rifa"
+        android:paddingLeft="@dimen/weight_barBottom_land2"
+        android:paddingRight="@dimen/weight_barBottom_land2"
+        android:src="@android:drawable/ic_menu_delete" />
+
+    <ImageButton
+        android:id="@+id/btnAdd_rifa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/negro"
+        android:contentDescription="@string/src_nueva_rifa"
+        android:paddingLeft="@dimen/weight_barBottom_land2"
+        android:paddingRight="@dimen/weight_barBottom_land2"
+        android:src="@android:drawable/ic_menu_add" />
+
+</RelativeLayout>

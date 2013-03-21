@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">¡Bienvenido a Rifa+!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="txt_correo">Correo Electrónico</string>
+    <string name="txt_contra">Contraseña</string>
+    <string name="btn_entrar">Entrar</string>
+    <dimen name="height_barBottom">40dp</dimen>
+    <dimen name="weight_barBottom">30dp</dimen>
+    <color name="negro">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="azul_claro">#33B5E5</color>
+    <color name="azul_oscuro">#0099CC</color>
+    <color name="morado_claro">#AA66CC</color>
+    <color name="morado_oscuro">#9933CC</color>
+    <color name="verde_claro">#99CC00</color>
+    <color name="verde_oscuro">#669900</color>
+    <color name="amarillo_claro">#FFBB33</color>
+    <color name="amarillo_oscuro">#FF8800</color>
+    <color name="rojo_claro">#FF4444</color>
+    <color name="rojo_oscuro">#CC0000</color>
+    <color name="gris_azulado">#123</color>
+    <string name="src_nueva_rifa">Nueva Rifa</string>
+    <string name="src_eliminar_rifa">Eliminar Rifa</string>
+    <string name="txt_nombre_rifa">Nombre</string>
+    <string name="txt_fecha_rifa">Fecha</string>
+    <string name="txt_tipo_rifa">Tipo de Rifa</string>
+    <string name="txt_imagen_rifa">Imagen del Objeto</string>
+    <string name="btn_buscar_foto">Buscar foto...</string>
+    <string name="btn_tomar_foto">Tomar foto</string>
+    <string name="txtField_nombre_rifa"></string>
+    <string name="txt_numeros_vendidos">Numeros Vendidos</string>
+    <string name="inf_cantidad_vendidos">###/###</string>
+    <string name="inf_estado_fecha_rifa">01/01/2013</string>
+    <string name="txt_recaudado">Recaudado</string>
+    <string name="inf_cantidad_recaudada">####/####</string>
+    <string name="txt_telefono">Numero de Telefono</string>
+    <string name="txt_direccion">Direccion</string>
+    <dimen name="weight_barBottom2">56dp</dimen>
+    <string name="txt_tickets">Tickets Generados</string>
+    <string name="inf_tickets_generados">####</string>
+    <dimen name="weight_barBottom3">147dp</dimen>
+    <string name="src_nuevo_ticket">Nuevo Ticket</string>
+    <string name="src_add_ticket">Agregar Ticket</string>
+    <string name="src_cancelar">Cancelar</string>
+    <string name="src_add_rifa">Crear Rifa</string>
+    <string name="src_ver_estado">Ver Estado</string>
+    <dimen name="Height_editText">16dp</dimen>
+    <color name="gris">#585858</color>
+    <color name="gris_claro">#D8D8D8</color>
+    <dimen name="weight_barBottom_land">64dp</dimen>
+    <dimen name="weight_barBottom_land2">96dp</dimen>
+
+</resources>
