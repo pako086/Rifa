@@ -52,10 +52,5 @@
     <color name="gris_claro">#D8D8D8</color>
     <dimen name="weight_barBottom_land">64dp</dimen>
     <dimen name="weight_barBottom_land2">96dp</dimen>
-    <string-array name="tipo_rifa">
-        <item >Ticket</item>
-        <item >Lotería</item>
-    </string-array>
-    <string name="src_spinner">...</string>
 
 </resources>

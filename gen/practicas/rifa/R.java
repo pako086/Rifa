@@ -8,9 +8,6 @@
 package practicas.rifa;
 
 public final class R {
-    public static final class array {
-        public static final int tipo_rifa=0x7f070000;
-    }
     public static final class attr {
     }
     public static final class color {
@@ -43,52 +40,34 @@ public final class R {
         public static final int background=0x7f020000;
         public static final int ic_entrar2=0x7f020001;
         public static final int ic_launcher=0x7f020002;
-        public static final int num100=0x7f020003;
-        public static final int num83=0x7f020004;
-        public static final int num84=0x7f020005;
-        public static final int num85=0x7f020006;
-        public static final int num86=0x7f020007;
-        public static final int num87=0x7f020008;
-        public static final int num88=0x7f020009;
-        public static final int num89=0x7f02000a;
-        public static final int num90=0x7f02000b;
-        public static final int num91=0x7f02000c;
-        public static final int num92=0x7f02000d;
-        public static final int num93=0x7f02000e;
-        public static final int num94=0x7f02000f;
-        public static final int num95=0x7f020010;
-        public static final int num96=0x7f020011;
-        public static final int num97=0x7f020012;
-        public static final int num98=0x7f020013;
-        public static final int num99=0x7f020014;
     }
     public static final class id {
-        public static final int btnAdd_Ticket=0x7f0a0016;
-        public static final int btnAdd_rifa=0x7f0a000a;
-        public static final int btnCancelar_rifa=0x7f0a000f;
-        public static final int btnCancelar_ticket=0x7f0a0015;
-        public static final int btnDelete_rifa=0x7f0a0009;
-        public static final int btnNew_Ticket=0x7f0a0006;
-        public static final int btnView_Estado=0x7f0a0018;
-        public static final int editText1=0x7f0a000b;
-        public static final int editText2=0x7f0a000c;
-        public static final int editText3=0x7f0a0013;
-        public static final int editText4=0x7f0a0014;
-        public static final int gridview_hundred=0x7f0a0017;
-        public static final int imageButton1=0x7f0a000d;
-        public static final int listView1=0x7f0a0008;
-        public static final int menu_settings=0x7f0a0019;
-        public static final int radio0=0x7f0a0011;
-        public static final int radio1=0x7f0a0010;
-        public static final int radioGroup1=0x7f0a000e;
-        public static final int ratingBar1=0x7f0a0007;
-        public static final int spinner1=0x7f0a0012;
-        public static final int textView1=0x7f0a0000;
-        public static final int textView2=0x7f0a0001;
-        public static final int textView3=0x7f0a0002;
-        public static final int textView4=0x7f0a0003;
-        public static final int textView5=0x7f0a0004;
-        public static final int textView6=0x7f0a0005;
+        public static final int btnAdd_Ticket=0x7f090016;
+        public static final int btnAdd_rifa=0x7f09000a;
+        public static final int btnCancelar_rifa=0x7f090012;
+        public static final int btnCancelar_ticket=0x7f090015;
+        public static final int btnDelete_rifa=0x7f090009;
+        public static final int btnNew_Ticket=0x7f090006;
+        public static final int btnView_Estado=0x7f090018;
+        public static final int editText1=0x7f09000b;
+        public static final int editText2=0x7f09000c;
+        public static final int editText3=0x7f090013;
+        public static final int editText4=0x7f090014;
+        public static final int gridview_hundred=0x7f090017;
+        public static final int imageButton1=0x7f09000d;
+        public static final int listView1=0x7f090008;
+        public static final int menu_settings=0x7f090019;
+        public static final int radio0=0x7f090010;
+        public static final int radio1=0x7f090011;
+        public static final int radioGroup1=0x7f09000f;
+        public static final int ratingBar1=0x7f090007;
+        public static final int spinner1=0x7f09000e;
+        public static final int textView1=0x7f090000;
+        public static final int textView2=0x7f090001;
+        public static final int textView3=0x7f090002;
+        public static final int textView4=0x7f090003;
+        public static final int textView5=0x7f090004;
+        public static final int textView6=0x7f090005;
     }
     public static final class layout {
         public static final int activity_inf_rifa=0x7f030000;
@@ -100,7 +79,7 @@ public final class R {
         public static final int activity_rifa_hundred=0x7f030006;
     }
     public static final class menu {
-        public static final int activity_login=0x7f090000;
+        public static final int activity_login=0x7f080000;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -119,7 +98,6 @@ public final class R {
         public static final int src_eliminar_rifa=0x7f040007;
         public static final int src_nueva_rifa=0x7f040006;
         public static final int src_nuevo_ticket=0x7f040018;
-        public static final int src_spinner=0x7f04001d;
         public static final int src_ver_estado=0x7f04001c;
         public static final int txtField_nombre_rifa=0x7f04000e;
         public static final int txt_contra=0x7f040004;
@@ -145,10 +123,10 @@ public final class R {
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f080000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f080001;
+        public static final int AppTheme=0x7f070001;
     }
 }

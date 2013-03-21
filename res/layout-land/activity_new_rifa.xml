@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    xmlns:tools="http://schemas.android.com/tools">
+    >
 
     <TextView
         android:id="@+id/textView1"
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView3"
-        android:background="@color/negro" tools:listitem="@android:layout/simple_spinner_dropdown_item"/>
+        android:background="@color/negro" />
 
     <TextView
         android:id="@+id/textView4"
